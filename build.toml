@@ -6,7 +6,7 @@ website = 'https://github.com/ful1e5/XCursor-pro'
 [config]
 bitmaps_dir = '' # This config will assigned with `ctgen -d <path>`
 out_dir = 'themes'
-platforms = ['x11', 'windows']
+platforms = ['x11']
 x11_sizes = [22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96]
 win_size = 32
 
@@ -136,7 +136,8 @@ x11_symlinks = [
 ]
 
 [cursors.left_ptr]
-png = 'left_ptr.png'
+#png = 'left_ptr.png'
+png = 'center_ptr.png'
 x_hotspot = 51
 y_hotspot = 24
 x11_name = 'left_ptr'
